@@ -712,3 +712,53 @@ Markdown Content:
 
 [Target Circle™](https://www.target.com/circle)[Target Circle™ Card](https://www.target.com/circlecard)[Targe
 [Target-Jina] Extracted 3 items successfully via Jina.
+[Target-Jina] Fetching: https://r.jina.ai/https://www.target.com/s?searchTerm=JBL%20Tune%20720BT%20-%20Wireless%20Over-Ear
+[eBay] Fetching: https://api.scraperapi.com?api_key=3f2b56d22d0d69d0f1c36a00c1797bcf&url=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3DJBL%2520Tune%2520720BT%2520-%2520Wireless%2520Over-Ear%26_sop%3D12&render=true&country_code=us
+[Walmart-Jina] Fetching: https://r.jina.ai/https://www.walmart.com/search?q=JBL%20Tune%20720BT%20-%20Wireless%20Over-Ear
+[Nike-Jina] Fetching: https://r.jina.ai/https://www.nike.com/w?q=JBL%20Tune%20720BT%20-%20Wireless%20Over-Ear
+[Apple-Jina] Fetching: https://r.jina.ai/https://www.apple.com/us/search/JBL%20Tune%20720BT%20-%20Wireless%20Over-Ear?src=globalnav
+[Microsoft-Jina] Fetching: https://r.jina.ai/https://www.microsoft.com/en-us/search/explore?q=JBL%20Tune%20720BT%20-%20Wireless%20Over-Ear
+[Target-Jina] Fetching: https://r.jina.ai/https://www.target.com/s?searchTerm=JBL%20Tune%20720BT%20-%20Wireless%20Over-Ear
+[eBay] Fetching: https://api.scraperapi.com?api_key=3f2b56d22d0d69d0f1c36a00c1797bcf&url=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3DJBL%2520Tune%2520720BT%2520-%2520Wireless%2520Over-Ear%26_sop%3D12&render=true&country_code=us
+[Walmart-Jina] Fetching: https://r.jina.ai/https://www.walmart.com/search?q=JBL%20Tune%20720BT%20-%20Wireless%20Over-Ear
+[Nike-Jina] Fetching: https://r.jina.ai/https://www.nike.com/w?q=JBL%20Tune%20720BT%20-%20Wireless%20Over-Ear
+[Apple-Jina] Fetching: https://r.jina.ai/https://www.apple.com/us/search/JBL%20Tune%20720BT%20-%20Wireless%20Over-Ear?src=globalnav
+[Microsoft-Jina] Fetching: https://r.jina.ai/https://www.microsoft.com/en-us/search/explore?q=JBL%20Tune%20720BT%20-%20Wireless%20Over-Ear
+[eBay] Found 10 items (mixed selectors).
+[eBay] Found 10 items (mixed selectors).
+[Target-Jina] Received 74760 bytes. Content: Title: "JBL Tune 720BT - Wireless Over-Ear" : Target
+
+URL Source: https://www.target.com/s?searchTerm=JBL%20Tune%20720BT%20-%20Wireless%20Over-Ear
+
+Markdown Content:
+"JBL Tune 720BT - Wireless Over-Ear" : Target
+===============
+
+[skip to main content](https://www.target.com/s?searchTerm=JBL%20Tune%20720BT%20-%20Wireless%20Over-Ear#content)[skip to footer](https://www.target.com/s?searchTerm=JBL%20Tune%20720BT%20-%20Wireless%20Over-Ear#footerHeader)
+
+Ship to 51503
+
+Council Bluffs
+
+[Target Circle™
+[Target-Jina] Extracted 8 items successfully via Jina.
+[Target-Jina] Received 74760 bytes. Content: Title: "JBL Tune 720BT - Wireless Over-Ear" : Target
+
+URL Source: https://www.target.com/s?searchTerm=JBL%20Tune%20720BT%20-%20Wireless%20Over-Ear
+
+Markdown Content:
+"JBL Tune 720BT - Wireless Over-Ear" : Target
+===============
+
+[skip to main content](https://www.target.com/s?searchTerm=JBL%20Tune%20720BT%20-%20Wireless%20Over-Ear#content)[skip to footer](https://www.target.com/s?searchTerm=JBL%20Tune%20720BT%20-%20Wireless%20Over-Ear#footerHeader)
+
+Ship to 51503
+
+Council Bluffs
+
+[Target Circle™
+[Target-Jina] Extracted 8 items successfully via Jina.
+[Walmart-Jina] Received 102149 bytes.
+[Walmart-Jina] Extracted 8 items successfully.
+[Walmart-Jina] Received 90091 bytes.
+[Walmart-Jina] Extracted 8 items successfully.
