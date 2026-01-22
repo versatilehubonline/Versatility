@@ -1,0 +1,237 @@
+
+import { NextRequest, NextResponse } from "next/server";
+import * as cheerio from "cheerio";
+
+// Safety Check Helpers (Moved to Server)
+const CPSC_URL = "https://www.saferproducts.gov/RestWebServices/Recall";
+const FDA_URL = "https://api.fda.gov";
+
+async function fetchCPSC(keyword: string) {
+    try {
+        const res = await fetch(`${CPSC_URL}?format=json&RecallTitle=${encodeURIComponent(keyword)}`);
+        return res.ok ? await res.json() : [];
+    } catch { return []; }
+}
+
+async function fetchFDA(keyword: string) {
+    const endpoints = [`${FDA_URL}/drug/enforcement.json`, `${FDA_URL}/device/enforcement.json`, `${FDA_URL}/food/enforcement.json`];
+    try {
+        const promises = endpoints.map(e => fetch(`${e}?search=product_description:"${encodeURIComponent(keyword)}"&limit=1`).then(r => r.ok ? r.json() : null).catch(() => null));
+        const res = await Promise.all(promises);
+        return res.filter(d => d && d.results).flatMap((d: any) => d.results);
+    } catch { return []; }
+}
+
+// Patterns
+const URGENCY_PATTERNS = [/only \d+ left/i, /limited time/i, /flash sale/i, /hurry/i, /ending soon/i, /\d+ people are viewing/i, /fomo/i, /almost gone/i];
+const DROPSHIPPING_PATTERNS = [/epacket/i, /shipping calculated at checkout/i, /please allow \d+-\d+ weeks/i, /ships from china/i, /aliexpress/i, /Oberlo/i, /direct from factory/i];
+const SENTIMENT_POSITIVE = [/excellent/i, /high quality/i, /fast shipping/i, /great customer service/i, /highly recommend/i, /authentic/i, /original/i];
+const SENTIMENT_NEGATIVE = [/scam/i, /fake/i, /late delivery/i, /never arrived/i, /bad quality/i, /terrible support/i, /overpriced/i, /not as described/i];
+const LEGAL_KEYWORDS = ["privacy policy", "terms of use", "refund policy", "contact us", "about us"];
+
+const SELECTORS = {
+    amazon: { title: "#productTitle", image: "#landingImage", price: ".a-price .a-offscreen" },
+    shopify: { title: ".product-single__title, .product-title", image: "[data-product-single-thumbnail], .product__main-photos img", price: ".product__price, .price" },
+    generic: { title: "h1, .title, meta[property='og:title']", image: "img, meta[property='og:image']", price: ".price, span:contains('$')" }
+};
+
+function cleanText(text: string): string { return text.replace(/\s+/g, ' ').trim(); }
+
+function extractSearchTerm(url: string, title?: string): string {
+    if (title && title.length > 5) {
+        // Clean up common prefixes/suffixes
+        const cleaned = title.replace(/Amazon\.com[:\-] /i, '').replace(/\|.*/, '').trim();
+        return cleaned.split(' ').slice(0, 6).join(' ');
+    }
+    try {
+        const urlObj = new URL(url);
+        const path = urlObj.pathname.split('/').filter(Boolean);
+        const slug = path[path.length - 1];
+        if (slug && !slug.includes('.html')) {
+            return slug.replace(/-/g, ' ').replace(/_/g, ' ');
+        }
+        return urlObj.hostname.replace('www.', '').split('.')[0];
+    } catch { return "Product"; }
+}
+
+export async function POST(req: NextRequest) {
+    try {
+        const { url, mode = 'product' } = await req.json();
+        if (!url) return NextResponse.json({ error: "Missing URL" }, { status: 400 });
+
+        const isWebsiteMode = mode === 'website';
+        let html = "";
+        let title = "Unknown Target";
+        let mainImage = null;
+        let price = null;
+        let fullBodyText = "";
+        let finePrint: string[] = [];
+        let reviewSummary: string[] = [];
+        let detectedTriggers: string[] = [];
+        let platform = "Direct Site";
+
+        try {
+            const response = await fetch(url, {
+                headers: { "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" },
+                next: { revalidate: 3600 }
+            });
+
+            if (response.ok) {
+                html = await response.text();
+                const $ = cheerio.load(html);
+                $('script, style, iframe, noscript').remove();
+
+                const isAmazon = url.includes("amazon.com");
+                const isShopify = html.includes("Shopify.theme") || html.includes("cdn.shopify.com");
+                platform = isAmazon ? "Amazon" : (isShopify ? "Shopify" : "Direct Site");
+                const sel = isAmazon ? SELECTORS.amazon : (isShopify ? SELECTORS.shopify : SELECTORS.generic);
+
+                title = cleanText($(sel.title).first().text() || $('title').text() || $('meta[property="og:title"]').attr("content") || title);
+                mainImage = $(sel.image).attr("src") || $('meta[property="og:image"]').attr("content");
+                price = cleanText($(sel.price).first().text() || "Varies");
+                fullBodyText = cleanText($('body').text());
+
+                const posCount = SENTIMENT_POSITIVE.filter(p => p.test(fullBodyText)).length;
+                const negCount = SENTIMENT_NEGATIVE.filter(n => n.test(fullBodyText)).length;
+                if (negCount > posCount) {
+                    reviewSummary.push("Warning: Surface sentiment reveals multiple quality complaints.");
+                    reviewSummary.push("Frequent mentions of 'late delivery' and 'poor support'.");
+                } else if (posCount > 2) {
+                    reviewSummary.push("General sentiment appears positive.");
+                    reviewSummary.push("High trust keywords detected throughout the page.");
+                } else {
+                    reviewSummary.push("Neutral sentiment detected. Standarized marketing copy.");
+                }
+
+                if (fullBodyText.includes("restocking fee")) finePrint.push("Caution: 15-20% restocking fee likely applies.");
+                if (fullBodyText.includes("no refunds")) finePrint.push("Warning: Hard 'No Refund' policy detected.");
+                if (fullBodyText.includes("30-day money back")) reviewSummary.push("Verified Marker: 30-day guarantee found.");
+            }
+        } catch (e) {
+            console.error("Scraper Error:", e);
+        }
+
+        const searchTerm = extractSearchTerm(url, title);
+        const [cpsc, fda] = await Promise.all([fetchCPSC(searchTerm), fetchFDA(searchTerm)]);
+
+        let urgencyScore = 0;
+        let dropshippingScore = 0;
+        let trustScore = 80;
+
+        URGENCY_PATTERNS.forEach(p => { if (p.test(fullBodyText)) urgencyScore += 15; });
+        DROPSHIPPING_PATTERNS.forEach(p => { if (p.test(fullBodyText)) dropshippingScore += 25; });
+
+        if (isWebsiteMode && html) {
+            const legalCount = LEGAL_KEYWORDS.filter(k => html.toLowerCase().includes(k)).length;
+            if (legalCount < 3) trustScore -= 20;
+            if (!url.startsWith("https")) trustScore -= 30;
+        }
+
+        // DYNAMIC SIMILAR ITEMS LOGIC
+        const similarItems = isWebsiteMode
+            ? [
+                { title: "Amazon Official Store", url: "https://www.amazon.com", score: 98 },
+                { title: "Verified eBay Outlet", url: "https://www.ebay.com", score: 92 },
+                { title: "Walmart Marketplace", url: "https://www.walmart.com", score: 95 }
+            ]
+            : [
+                {
+                    title: `Check Amazon for: ${searchTerm.slice(0, 30)}...`,
+                    url: `https://www.amazon.com/s?k=${encodeURIComponent(searchTerm)}`,
+                    score: 95
+                },
+                {
+                    title: `Find on eBay: ${searchTerm.slice(0, 30)}...`,
+                    url: `https://www.ebay.com/sch/i.html?_nkw=${encodeURIComponent(searchTerm)}`,
+                    score: 88
+                },
+                {
+                    title: `Google Shopping: ${searchTerm.slice(0, 30)}...`,
+                    url: `https://www.google.com/search?tbm=shop&q=${encodeURIComponent(searchTerm)}`,
+                    score: 92
+                }
+            ]; \n\n        // SHIPPING INFORMATION EXTRACTION\n        let shippingInfo = null;\n        if (html) {\n            const $ = cheerio.load(html);\n            \n            // Amazon shipping selectors
+        if (url.includes("amazon.com")) {
+            const shippingSelectors = [
+                "#deliveryBlockMessage",
+                "#mir-layout-DELIVERY_BLOCK-slot-PRIMARY_DELIVERY_MESSAGE_LARGE",
+                "[data-csa-c-delivery-price]",
+                "#fast-track-message",
+                ".a-color-success.a-text-bold"
+            ];
+
+            for (const selector of shippingSelectors) {
+                const text = $(selector).first().text().trim();
+                if (text && (text.includes("FREE") || text.includes("delivery") || text.includes("shipping"))) {
+                    shippingInfo = cleanText(text);
+                    break;
+                }
+            }
+
+            // Check for Prime shipping
+            if (!shippingInfo && $("[aria-label*='Prime']").length > 0) {
+                shippingInfo = "FREE Prime shipping available";
+            }
+        }
+
+        // eBay shipping
+        else if (url.includes("ebay.com")) {
+            const shippingText = $(".ux-labels-values--shipping .ux-textspans").first().text().trim();
+            if (shippingText) {
+                shippingInfo = cleanText(shippingText);
+            }
+        }
+
+        // Walmart shipping
+        else if (url.includes("walmart.com")) {
+            const shippingText = $("[data-testid='fulfillment-shipping']").first().text().trim();
+            if (shippingText) {
+                shippingInfo = cleanText(shippingText);
+            }
+        }
+
+        // Generic shipping extraction
+        else {
+            const shippingPatterns = [
+                /free shipping/i,
+                /shipping: \$[\d.]+/i,
+                /delivery in \d+-\d+ days/i,
+                /ships in \d+-\d+ business days/i
+            ];
+
+            for (const pattern of shippingPatterns) {
+                const match = fullBodyText.match(pattern);
+                if (match) {
+                    shippingInfo = match[0];
+                    break;
+                }
+            }
+        }
+    }
+
+        return NextResponse.json({
+        title,
+        image: mainImage,
+        price,
+        urgencyScore: Math.min(urgencyScore, 100),
+        dropshippingScore: Math.min(dropshippingScore, 100),
+        trustScore: Math.max(0, trustScore),
+        detectedTriggers,
+        finePrint,
+        reviewSummary,
+        fullText: fullBodyText.slice(0, 3000),
+        similarItems,
+        platform,
+        shippingInfo,
+        safety: {
+            cpsc: cpsc.length > 0 ? cpsc[0] : null,
+            fda: fda.length > 0 ? fda[0] : null,
+            reports: fda
+        }
+    });
+
+} catch (error) {
+    console.error("API Error:", error);
+    return NextResponse.json({ error: "Analysis failed" }, { status: 500 });
+}
+}

@@ -1,0 +1,714 @@
+[eBay] Fetching: https://api.scraperapi.com?api_key=3f2b56d22d0d69d0f1c36a00c1797bcf&url=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dmechanical%2520keyboard%26_sop%3D12&render=true&country_code=us
+[eBay] Found 0 wrapper items.
+[eBay] Dumped HTML to ebay_debug.html
+[eBay] Fetching: https://api.scraperapi.com?api_key=3f2b56d22d0d69d0f1c36a00c1797bcf&url=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dbrush%255D%26_sop%3D12&render=true&country_code=us
+[eBay] Fetching: https://api.scraperapi.com?api_key=3f2b56d22d0d69d0f1c36a00c1797bcf&url=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dbrush%255D%26_sop%3D12&render=true&country_code=us
+[eBay] Found 10 items (mixed selectors).
+[eBay] Found 10 items (mixed selectors).
+[eBay] Fetching: https://api.scraperapi.com?api_key=3f2b56d22d0d69d0f1c36a00c1797bcf&url=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlego%2520set%26_sop%3D12&render=true&country_code=us
+[eBay] Found 10 items (mixed selectors).
+[eBay] Fetching: https://api.scraperapi.com?api_key=3f2b56d22d0d69d0f1c36a00c1797bcf&url=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dchair%26_sop%3D12&render=true&country_code=us
+[eBay] Fetching: https://api.scraperapi.com?api_key=3f2b56d22d0d69d0f1c36a00c1797bcf&url=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dchair%26_sop%3D12&render=true&country_code=us
+[eBay] Found 10 items (mixed selectors).
+[eBay] Found 10 items (mixed selectors).
+[eBay] Fetching: https://api.scraperapi.com?api_key=3f2b56d22d0d69d0f1c36a00c1797bcf&url=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3D%2522chair%2522%2520%253A%2520Target%26_sop%3D12&render=true&country_code=us
+[eBay] Found 10 items (mixed selectors).
+[eBay] Fetching: https://api.scraperapi.com?api_key=3f2b56d22d0d69d0f1c36a00c1797bcf&url=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dchair%26_sop%3D12&render=true&country_code=us
+[eBay] Found 10 items (mixed selectors).
+[eBay] Fetching: https://api.scraperapi.com?api_key=3f2b56d22d0d69d0f1c36a00c1797bcf&url=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dipad%2520air%26_sop%3D12&render=true&country_code=us
+[eBay] Found 10 items (mixed selectors).
+[Target] Found 24 items.
+[eBay] Fetching: https://api.scraperapi.com?api_key=3f2b56d22d0d69d0f1c36a00c1797bcf&url=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dipad%2520air%26_sop%3D12&render=true&country_code=us
+[eBay] Found 10 items (mixed selectors).
+[Target] Found 24 items.
+[Target] Extracted 0 valid items.
+[eBay] Fetching: https://api.scraperapi.com?api_key=3f2b56d22d0d69d0f1c36a00c1797bcf&url=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dipad%2520air%26_sop%3D12&render=true&country_code=us
+[eBay] Found 10 items (mixed selectors).
+[eBay] Fetching: https://api.scraperapi.com?api_key=3f2b56d22d0d69d0f1c36a00c1797bcf&url=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dshoes%26_sop%3D12&render=true&country_code=us
+[eBay] Found 10 items (mixed selectors).
+[eBay] Fetching: https://api.scraperapi.com?api_key=3f2b56d22d0d69d0f1c36a00c1797bcf&url=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dshoes%26_sop%3D12&render=true&country_code=us
+[eBay] Found 10 items (mixed selectors).
+[eBay] Fetching: https://api.scraperapi.com?api_key=3f2b56d22d0d69d0f1c36a00c1797bcf&url=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dipad%2520air%26_sop%3D12&render=true&country_code=us
+[eBay] Found 10 items (mixed selectors).
+[eBay] Fetching: https://api.scraperapi.com?api_key=3f2b56d22d0d69d0f1c36a00c1797bcf&url=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dipad%2520air%26_sop%3D12&render=true&country_code=us
+[eBay] Found 10 items (mixed selectors).
+[Target-Jina] Fetching: https://r.jina.ai/https://www.target.com/s?searchTerm=ipad%20air
+[eBay] Fetching: https://api.scraperapi.com?api_key=3f2b56d22d0d69d0f1c36a00c1797bcf&url=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dipad%2520air%26_sop%3D12&render=true&country_code=us
+[Target-Jina] Received 106 bytes of markdown.
+[eBay] Found 10 items (mixed selectors).
+[Target-Jina] Fetching: https://r.jina.ai/https://www.target.com/s?searchTerm=ipad%20air
+[eBay] Fetching: https://api.scraperapi.com?api_key=3f2b56d22d0d69d0f1c36a00c1797bcf&url=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dipad%2520air%26_sop%3D12&render=true&country_code=us
+[Target-Jina] Received 106 bytes. Content: event: error
+data: {"name":"TypeError","message":"Cannot read properties of undefined (reading 'imgs')"}
+
+
+[eBay] Found 10 items (mixed selectors).
+[Target-Jina] Fetching: https://r.jina.ai/https://www.target.com/s?searchTerm=ipad%20air
+[eBay] Fetching: https://api.scraperapi.com?api_key=3f2b56d22d0d69d0f1c36a00c1797bcf&url=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dipad%2520air%26_sop%3D12&render=true&country_code=us
+[Target-Jina] Received 65533 bytes. Content: Title: "ipad air" : Target
+
+URL Source: https://www.target.com/s?searchTerm=ipad%20air
+
+Markdown Content:
+"ipad air" : Target
+===============
+
+[skip to main content](https://www.target.com/s?searchTerm=ipad%20air#content)[skip to footer](https://www.target.com/s?searchTerm=ipad%20air#footerHeader)
+
+Ship to 51503
+
+Council Bluffs
+
+[Target Circle™](https://www.target.com/circle)[Target Circle™ Card](https://www.target.com/circlecard)[Target Circle 360™](https://www.target.com/l/target-circle-360/-/
+[Target-Jina] Extracted 8 items successfully via Jina.
+[eBay] Found 10 items (mixed selectors).
+[Target-Jina] Fetching: https://r.jina.ai/https://www.target.com/s?searchTerm=chair
+[eBay] Fetching: https://api.scraperapi.com?api_key=3f2b56d22d0d69d0f1c36a00c1797bcf&url=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dchair%26_sop%3D12&render=true&country_code=us
+[Target-Jina] Fetching: https://r.jina.ai/https://www.target.com/s?searchTerm=chair
+[eBay] Fetching: https://api.scraperapi.com?api_key=3f2b56d22d0d69d0f1c36a00c1797bcf&url=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dchair%26_sop%3D12&render=true&country_code=us
+[eBay] Found 10 items (mixed selectors).
+[eBay] Found 10 items (mixed selectors).
+[Target-Jina] Received 82453 bytes. Content: Title: "chair" : Target
+
+URL Source: https://www.target.com/s?searchTerm=chair
+
+Markdown Content:
+"chair" : Target
+===============
+
+[skip to main content](https://www.target.com/s?searchTerm=chair#content)[skip to footer](https://www.target.com/s?searchTerm=chair#footerHeader)
+
+Ship to 51503
+
+Council Bluffs
+
+[Target Circle™](https://www.target.com/circle)[Target Circle™ Card](https://www.target.com/circlecard)[Target Circle 360™](https://www.target.com/l/target-circle-360/-/N-2rguk)[Registry & W
+[Target-Jina] Extracted 8 items successfully via Jina.
+[Target-Jina] Received 1726 bytes. Content: Title: "chair" : Target
+
+URL Source: https://www.target.com/s?searchTerm=chair
+
+Markdown Content:
+[skip to main content](https://www.target.com/s?searchTerm=chair#content)[skip to footer](https://www.target.com/s?searchTerm=chair#footerHeader)
+
+[Target Circle™](https://www.target.com/circle)[Target Circle™ Card](https://www.target.com/circlecard)[Target Circle 360™](https://www.target.com/l/target-circle-360/-/N-2rguk)[Registry & Wish List](https://www.target.com/gift-registry)[Weekly Ad](https:
+[Target-Jina] Fetching: https://r.jina.ai/https://www.target.com/s?searchTerm=lego%20set
+[eBay] Fetching: https://api.scraperapi.com?api_key=3f2b56d22d0d69d0f1c36a00c1797bcf&url=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlego%2520set%26_sop%3D12&render=true&country_code=us
+[Walmart-Jina] Fetching: https://r.jina.ai/https://www.walmart.com/search?q=lego%20set
+[eBay] Found 10 items (mixed selectors).
+[Target-Jina] Received 1744 bytes. Content: Title: "lego set" : Target
+
+URL Source: https://www.target.com/s?searchTerm=lego%20set
+
+Markdown Content:
+[skip to main content](https://www.target.com/s?searchTerm=lego%20set#content)[skip to footer](https://www.target.com/s?searchTerm=lego%20set#footerHeader)
+
+[Target Circle™](https://www.target.com/circle)[Target Circle™ Card](https://www.target.com/circlecard)[Target Circle 360™](https://www.target.com/l/target-circle-360/-/N-2rguk)[Registry & Wish List](https://www.target.com/gift-registry)
+[Walmart-Jina] Received 103696 bytes.
+[Walmart-Jina] Extracted 1 items successfully.
+[Target-Jina] Fetching: https://r.jina.ai/https://www.target.com/s?searchTerm=chair
+[eBay] Fetching: https://api.scraperapi.com?api_key=3f2b56d22d0d69d0f1c36a00c1797bcf&url=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dchair%26_sop%3D12&render=true&country_code=us
+[Walmart-Jina] Fetching: https://r.jina.ai/https://www.walmart.com/search?q=chair
+[Target-Jina] Received 82453 bytes. Content: Title: "chair" : Target
+
+URL Source: https://www.target.com/s?searchTerm=chair
+
+Markdown Content:
+"chair" : Target
+===============
+
+[skip to main content](https://www.target.com/s?searchTerm=chair#content)[skip to footer](https://www.target.com/s?searchTerm=chair#footerHeader)
+
+Ship to 51503
+
+Council Bluffs
+
+[Target Circle™](https://www.target.com/circle)[Target Circle™ Card](https://www.target.com/circlecard)[Target Circle 360™](https://www.target.com/l/target-circle-360/-/N-2rguk)[Registry & W
+[Target-Jina] Extracted 8 items successfully via Jina.
+[eBay] Found 10 items (mixed selectors).
+[Target-Jina] Fetching: https://r.jina.ai/https://www.target.com/s?searchTerm=chair
+[eBay] Fetching: https://api.scraperapi.com?api_key=3f2b56d22d0d69d0f1c36a00c1797bcf&url=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dchair%26_sop%3D12&render=true&country_code=us
+[Walmart-Jina] Fetching: https://r.jina.ai/https://www.walmart.com/search?q=chair
+[Target-Jina] Received 82453 bytes. Content: Title: "chair" : Target
+
+URL Source: https://www.target.com/s?searchTerm=chair
+
+Markdown Content:
+"chair" : Target
+===============
+
+[skip to main content](https://www.target.com/s?searchTerm=chair#content)[skip to footer](https://www.target.com/s?searchTerm=chair#footerHeader)
+
+Ship to 51503
+
+Council Bluffs
+
+[Target Circle™](https://www.target.com/circle)[Target Circle™ Card](https://www.target.com/circlecard)[Target Circle 360™](https://www.target.com/l/target-circle-360/-/N-2rguk)[Registry & W
+[Target-Jina] Extracted 8 items successfully via Jina.
+[eBay] Found 10 items (mixed selectors).
+[Target-Jina] Fetching: https://r.jina.ai/https://www.target.com/s?searchTerm=chair
+[eBay] Fetching: https://api.scraperapi.com?api_key=3f2b56d22d0d69d0f1c36a00c1797bcf&url=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dchair%26_sop%3D12&render=true&country_code=us
+[Walmart-Jina] Fetching: https://r.jina.ai/https://www.walmart.com/search?q=chair
+[Target-Jina] Received 82453 bytes. Content: Title: "chair" : Target
+
+URL Source: https://www.target.com/s?searchTerm=chair
+
+Markdown Content:
+"chair" : Target
+===============
+
+[skip to main content](https://www.target.com/s?searchTerm=chair#content)[skip to footer](https://www.target.com/s?searchTerm=chair#footerHeader)
+
+Ship to 51503
+
+Council Bluffs
+
+[Target Circle™](https://www.target.com/circle)[Target Circle™ Card](https://www.target.com/circlecard)[Target Circle 360™](https://www.target.com/l/target-circle-360/-/N-2rguk)[Registry & W
+[Target-Jina] Extracted 8 items successfully via Jina.
+[Walmart-Jina] Received 187990 bytes.
+[Walmart-Jina] Extracted 5 items successfully.
+[Target-Jina] Fetching: https://r.jina.ai/https://www.target.com/s?searchTerm=chair
+[eBay] Fetching: https://api.scraperapi.com?api_key=3f2b56d22d0d69d0f1c36a00c1797bcf&url=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dchair%26_sop%3D12&render=true&country_code=us
+[Walmart-Jina] Fetching: https://r.jina.ai/https://www.walmart.com/search?q=chair
+[Target-Jina] Received 82453 bytes. Content: Title: "chair" : Target
+
+URL Source: https://www.target.com/s?searchTerm=chair
+
+Markdown Content:
+"chair" : Target
+===============
+
+[skip to main content](https://www.target.com/s?searchTerm=chair#content)[skip to footer](https://www.target.com/s?searchTerm=chair#footerHeader)
+
+Ship to 51503
+
+Council Bluffs
+
+[Target Circle™](https://www.target.com/circle)[Target Circle™ Card](https://www.target.com/circlecard)[Target Circle 360™](https://www.target.com/l/target-circle-360/-/N-2rguk)[Registry & W
+[Target-Jina] Extracted 8 items successfully via Jina.
+[eBay] Found 10 items (mixed selectors).
+[Walmart-Jina] Received 186772 bytes.
+[Walmart-Jina] Extracted 5 items successfully.
+[eBay] Found 10 items (mixed selectors).
+[Walmart-Jina] Received 186642 bytes.
+[Walmart-Jina] Extracted 5 items successfully.
+[Walmart-Jina] Received 186941 bytes.
+[Walmart-Jina] Extracted 5 items successfully.
+[Target-Jina] Fetching: https://r.jina.ai/https://www.target.com/s?searchTerm=sheets
+[eBay] Fetching: https://api.scraperapi.com?api_key=3f2b56d22d0d69d0f1c36a00c1797bcf&url=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dsheets%26_sop%3D12&render=true&country_code=us
+[Walmart-Jina] Fetching: https://r.jina.ai/https://www.walmart.com/search?q=sheets
+[Target-Jina] Fetching: https://r.jina.ai/https://www.target.com/s?searchTerm=sheets
+[eBay] Fetching: https://api.scraperapi.com?api_key=3f2b56d22d0d69d0f1c36a00c1797bcf&url=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dsheets%26_sop%3D12&render=true&country_code=us
+[Walmart-Jina] Fetching: https://r.jina.ai/https://www.walmart.com/search?q=sheets
+[eBay] Found 10 items (mixed selectors).
+[eBay] Found 10 items (mixed selectors).
+[Walmart-Jina] Received 180486 bytes.
+[Walmart-Jina] Extracted 5 items successfully.
+[Target-Jina] Received 104824 bytes. Content: Title: "sheets" : Target
+
+URL Source: https://www.target.com/s?searchTerm=sheets
+
+Markdown Content:
+"sheets" : Target
+===============
+
+[skip to main content](https://www.target.com/s?searchTerm=sheets#content)[skip to footer](https://www.target.com/s?searchTerm=sheets#footerHeader)
+
+Ship to 51503
+
+Council Bluffs
+
+[Target Circle™](https://www.target.com/circle)[Target Circle™ Card](https://www.target.com/circlecard)[Target Circle 360™](https://www.target.com/l/target-circle-360/-/N-2rguk)[Registr
+[Target-Jina] Extracted 8 items successfully via Jina.
+[Target-Jina] Received 104577 bytes. Content: Title: "sheets" : Target
+
+URL Source: https://www.target.com/s?searchTerm=sheets
+
+Markdown Content:
+"sheets" : Target
+===============
+
+[skip to main content](https://www.target.com/s?searchTerm=sheets#content)[skip to footer](https://www.target.com/s?searchTerm=sheets#footerHeader)
+
+Ship to 51503
+
+Council Bluffs
+
+[Target Circle™](https://www.target.com/circle)[Target Circle™ Card](https://www.target.com/circlecard)[Target Circle 360™](https://www.target.com/l/target-circle-360/-/N-2rguk)[Registr
+[Target-Jina] Extracted 8 items successfully via Jina.
+[Walmart-Jina] Received 24850 bytes.
+[Target-Jina] Fetching: https://r.jina.ai/https://www.target.com/s?searchTerm=monitor
+[eBay] Fetching: https://api.scraperapi.com?api_key=3f2b56d22d0d69d0f1c36a00c1797bcf&url=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dmonitor%26_sop%3D12&render=true&country_code=us
+[Walmart-Jina] Fetching: https://r.jina.ai/https://www.walmart.com/search?q=monitor
+[Walmart-Jina] Received 29506 bytes.
+[eBay] Found 10 items (mixed selectors).
+[Target-Jina] Received 52200 bytes. Content: Title: "monitor" : Target
+
+URL Source: https://www.target.com/s?searchTerm=monitor
+
+Markdown Content:
+"monitor" : Target
+===============
+
+[skip to main content](https://www.target.com/s?searchTerm=monitor#content)[skip to footer](https://www.target.com/s?searchTerm=monitor#footerHeader)
+
+Ship to 51503
+
+Council Bluffs
+
+[Target Circle™](https://www.target.com/circle)[Target Circle™ Card](https://www.target.com/circlecard)[Target Circle 360™](https://www.target.com/l/target-circle-360/-/N-2rguk)[Re
+[Target-Jina] Extracted 8 items successfully via Jina.
+[Target-Jina] Fetching: https://r.jina.ai/https://www.target.com/s?searchTerm=monitor
+[eBay] Fetching: https://api.scraperapi.com?api_key=3f2b56d22d0d69d0f1c36a00c1797bcf&url=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dmonitor%26_sop%3D12&render=true&country_code=us
+[Walmart-Jina] Fetching: https://r.jina.ai/https://www.walmart.com/search?q=monitor
+[eBay] Found 10 items (mixed selectors).
+[Walmart-Jina] Received 133755 bytes.
+[Walmart-Jina] Failed to extract items. Content sample: Title: monitor - Walmart.com
+
+URL Source: https://www.walmart.com/search?q=monitor
+
+Markdown Content:
+monitor - Walmart.com
+===============
+
+[](https://www.walmart.com/search?q=monitor)[Skip to Main Content](https://www.walmart.com/search?q=monitor#maincontent)
+
+[](https://www.walmart.com/)
+
+[![Image 39: Walmart](https://i5.walmartimages.com/dfw/63fd9f59-14e2/9d304ce6-96de-4331-b8ec-c5191226d378/v1/spark-icon.svg)](https://www.walmart.com/)
+
+* * *
+
+![Image 40: Banner title icon](https://i5.walma
+[Target-Jina] Fetching: https://r.jina.ai/https://www.target.com/s?searchTerm=monitor
+[eBay] Fetching: https://api.scraperapi.com?api_key=3f2b56d22d0d69d0f1c36a00c1797bcf&url=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dmonitor%26_sop%3D12&render=true&country_code=us
+[Walmart-Jina] Fetching: https://r.jina.ai/https://www.walmart.com/search?q=monitor
+[Target-Jina] Received 52170 bytes. Content: Title: "monitor" : Target
+
+URL Source: https://www.target.com/s?searchTerm=monitor
+
+Markdown Content:
+"monitor" : Target
+===============
+
+[skip to main content](https://www.target.com/s?searchTerm=monitor#content)[skip to footer](https://www.target.com/s?searchTerm=monitor#footerHeader)
+
+Ship to 51503
+
+Council Bluffs
+
+[Target Circle™](https://www.target.com/circle)[Target Circle™ Card](https://www.target.com/circlecard)[Target Circle 360™](https://www.target.com/l/target-circle-360/-/N-2rguk)[Re
+[Target-Jina] Extracted 8 items successfully via Jina.
+[eBay] Found 10 items (mixed selectors).
+[Walmart-Jina] Received 129525 bytes.
+[Walmart-Jina] Failed to extract items. Dumped full content to walmart_debug.md
+[Target-Jina] Fetching: https://r.jina.ai/https://www.target.com/s?searchTerm=monitor
+[eBay] Fetching: https://api.scraperapi.com?api_key=3f2b56d22d0d69d0f1c36a00c1797bcf&url=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dmonitor%26_sop%3D12&render=true&country_code=us
+[Walmart-Jina] Fetching: https://r.jina.ai/https://www.walmart.com/search?q=monitor
+[Walmart-Jina] Received 129496 bytes.
+[Walmart-Jina] Extracted 8 items successfully.
+[Target-Jina] Received 52170 bytes. Content: Title: "monitor" : Target
+
+URL Source: https://www.target.com/s?searchTerm=monitor
+
+Markdown Content:
+"monitor" : Target
+===============
+
+[skip to main content](https://www.target.com/s?searchTerm=monitor#content)[skip to footer](https://www.target.com/s?searchTerm=monitor#footerHeader)
+
+Ship to 51503
+
+Council Bluffs
+
+[Target Circle™](https://www.target.com/circle)[Target Circle™ Card](https://www.target.com/circlecard)[Target Circle 360™](https://www.target.com/l/target-circle-360/-/N-2rguk)[Re
+[Target-Jina] Extracted 8 items successfully via Jina.
+[eBay] Found 10 items (mixed selectors).
+[Target-Jina] Fetching: https://r.jina.ai/https://www.target.com/s?searchTerm=monitor
+[eBay] Fetching: https://api.scraperapi.com?api_key=3f2b56d22d0d69d0f1c36a00c1797bcf&url=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dmonitor%26_sop%3D12&render=true&country_code=us
+[Walmart-Jina] Fetching: https://r.jina.ai/https://www.walmart.com/search?q=monitor
+[Target-Jina] Fetching: https://r.jina.ai/https://www.target.com/s?searchTerm=monitor
+[eBay] Fetching: https://api.scraperapi.com?api_key=3f2b56d22d0d69d0f1c36a00c1797bcf&url=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dmonitor%26_sop%3D12&render=true&country_code=us
+[Walmart-Jina] Fetching: https://r.jina.ai/https://www.walmart.com/search?q=monitor
+[Target-Jina] Received 52170 bytes. Content: Title: "monitor" : Target
+
+URL Source: https://www.target.com/s?searchTerm=monitor
+
+Markdown Content:
+"monitor" : Target
+===============
+
+[skip to main content](https://www.target.com/s?searchTerm=monitor#content)[skip to footer](https://www.target.com/s?searchTerm=monitor#footerHeader)
+
+Ship to 51503
+
+Council Bluffs
+
+[Target Circle™](https://www.target.com/circle)[Target Circle™ Card](https://www.target.com/circlecard)[Target Circle 360™](https://www.target.com/l/target-circle-360/-/N-2rguk)[Re
+[Target-Jina] Extracted 8 items successfully via Jina.
+[Walmart-Jina] Received 129496 bytes.
+[Walmart-Jina] Extracted 8 items successfully.
+[Target-Jina] Received 52170 bytes. Content: Title: "monitor" : Target
+
+URL Source: https://www.target.com/s?searchTerm=monitor
+
+Markdown Content:
+"monitor" : Target
+===============
+
+[skip to main content](https://www.target.com/s?searchTerm=monitor#content)[skip to footer](https://www.target.com/s?searchTerm=monitor#footerHeader)
+
+Ship to 51503
+
+Council Bluffs
+
+[Target Circle™](https://www.target.com/circle)[Target Circle™ Card](https://www.target.com/circlecard)[Target Circle 360™](https://www.target.com/l/target-circle-360/-/N-2rguk)[Re
+[Target-Jina] Extracted 8 items successfully via Jina.
+[Walmart-Jina] Received 129496 bytes.
+[Walmart-Jina] Extracted 8 items successfully.
+[eBay] Found 10 items (mixed selectors).
+[eBay] Found 10 items (mixed selectors).
+[Target-Jina] Fetching: https://r.jina.ai/https://www.target.com/s?searchTerm=monitor
+[eBay] Fetching: https://api.scraperapi.com?api_key=3f2b56d22d0d69d0f1c36a00c1797bcf&url=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dmonitor%26_sop%3D12&render=true&country_code=us
+[Walmart-Jina] Fetching: https://r.jina.ai/https://www.walmart.com/search?q=monitor
+[Target-Jina] Received 52170 bytes. Content: Title: "monitor" : Target
+
+URL Source: https://www.target.com/s?searchTerm=monitor
+
+Markdown Content:
+"monitor" : Target
+===============
+
+[skip to main content](https://www.target.com/s?searchTerm=monitor#content)[skip to footer](https://www.target.com/s?searchTerm=monitor#footerHeader)
+
+Ship to 51503
+
+Council Bluffs
+
+[Target Circle™](https://www.target.com/circle)[Target Circle™ Card](https://www.target.com/circlecard)[Target Circle 360™](https://www.target.com/l/target-circle-360/-/N-2rguk)[Re
+[Target-Jina] Extracted 8 items successfully via Jina.
+[Walmart-Jina] Received 129496 bytes.
+[Walmart-Jina] Extracted 8 items successfully.
+[eBay] Found 10 items (mixed selectors).
+[Target-Jina] Fetching: https://r.jina.ai/https://www.target.com/s?searchTerm=jordans
+[eBay] Fetching: https://api.scraperapi.com?api_key=3f2b56d22d0d69d0f1c36a00c1797bcf&url=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Djordans%26_sop%3D12&render=true&country_code=us
+[Walmart-Jina] Fetching: https://r.jina.ai/https://www.walmart.com/search?q=jordans
+[Target-Jina] Fetching: https://r.jina.ai/https://www.target.com/s?searchTerm=jordans
+[eBay] Fetching: https://api.scraperapi.com?api_key=3f2b56d22d0d69d0f1c36a00c1797bcf&url=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Djordans%26_sop%3D12&render=true&country_code=us
+[Walmart-Jina] Fetching: https://r.jina.ai/https://www.walmart.com/search?q=jordans
+[eBay] Found 10 items (mixed selectors).
+[eBay] Found 10 items (mixed selectors).
+[Target-Jina] Received 90464 bytes. Content: Title: "jordans" : Target
+
+URL Source: https://www.target.com/s?searchTerm=jordans
+
+Markdown Content:
+"jordans" : Target
+===============
+
+[skip to main content](https://www.target.com/s?searchTerm=jordans#content)[skip to footer](https://www.target.com/s?searchTerm=jordans#footerHeader)
+
+Ship to 51503
+
+Council Bluffs
+
+[Target Circle™](https://www.target.com/circle)[Target Circle™ Card](https://www.target.com/circlecard)[Target Circle 360™](https://www.target.com/l/target-circle-360/-/N-2rguk)[Re
+[Target-Jina] Extracted 8 items successfully via Jina.
+[Target-Jina] Received 90464 bytes. Content: Title: "jordans" : Target
+
+URL Source: https://www.target.com/s?searchTerm=jordans
+
+Markdown Content:
+"jordans" : Target
+===============
+
+[skip to main content](https://www.target.com/s?searchTerm=jordans#content)[skip to footer](https://www.target.com/s?searchTerm=jordans#footerHeader)
+
+Ship to 51503
+
+Council Bluffs
+
+[Target Circle™](https://www.target.com/circle)[Target Circle™ Card](https://www.target.com/circlecard)[Target Circle 360™](https://www.target.com/l/target-circle-360/-/N-2rguk)[Re
+[Target-Jina] Extracted 8 items successfully via Jina.
+[Walmart-Jina] Received 79128 bytes.
+[Walmart-Jina] Extracted 8 items successfully.
+[Walmart-Jina] Received 58384 bytes.
+[Walmart-Jina] Extracted 8 items successfully.
+[Target-Jina] Fetching: https://r.jina.ai/https://www.target.com/s?searchTerm=air%20jordan
+[eBay] Fetching: https://api.scraperapi.com?api_key=3f2b56d22d0d69d0f1c36a00c1797bcf&url=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dair%2520jordan%26_sop%3D12&render=true&country_code=us
+[Walmart-Jina] Fetching: https://r.jina.ai/https://www.walmart.com/search?q=air%20jordan
+[Nike-Jina] Fetching: https://r.jina.ai/https://www.nike.com/w?q=air%20jordan
+[eBay] Found 10 items (mixed selectors).
+[Target-Jina] Received 17125 bytes. Content: Title: "air jordan" : Target
+
+URL Source: https://www.target.com/s?searchTerm=air%20jordan
+
+Markdown Content:
+[skip to main content](https://www.target.com/s?searchTerm=air%20jordan#content)[skip to footer](https://www.target.com/s?searchTerm=air%20jordan#footerHeader)
+
+[Target Circle™](https://www.target.com/circle)[Target Circle™ Card](https://www.target.com/circlecard)[Target Circle 360™](https://www.target.com/l/target-circle-360/-/N-2rguk)[Registry & Wish List](https://www.target.com/gift-r
+[Target-Jina] Extracted 8 items successfully via Jina.
+[Walmart-Jina] Received 45533 bytes.
+[Walmart-Jina] Extracted 8 items successfully.
+[Target-Jina] Fetching: https://r.jina.ai/https://www.target.com/s?searchTerm=macbook%20laptop
+[eBay] Fetching: https://api.scraperapi.com?api_key=3f2b56d22d0d69d0f1c36a00c1797bcf&url=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dmacbook%2520laptop%26_sop%3D12&render=true&country_code=us
+[Walmart-Jina] Fetching: https://r.jina.ai/https://www.walmart.com/search?q=macbook%20laptop
+[Nike-Jina] Fetching: https://r.jina.ai/https://www.nike.com/w?q=macbook%20laptop
+[Target-Jina] Fetching: https://r.jina.ai/https://www.target.com/s?searchTerm=macbook%20laptop
+[eBay] Fetching: https://api.scraperapi.com?api_key=3f2b56d22d0d69d0f1c36a00c1797bcf&url=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dmacbook%2520laptop%26_sop%3D12&render=true&country_code=us
+[Walmart-Jina] Fetching: https://r.jina.ai/https://www.walmart.com/search?q=macbook%20laptop
+[Nike-Jina] Fetching: https://r.jina.ai/https://www.nike.com/w?q=macbook%20laptop
+[eBay] Found 10 items (mixed selectors).
+[eBay] Found 10 items (mixed selectors).
+[Walmart-Jina] Received 754 bytes.
+[Walmart-Jina] Received 75941 bytes.
+[Walmart-Jina] Extracted 8 items successfully.
+[Target-Jina] Received 53512 bytes. Content: Title: "macbook laptop" : Target
+
+URL Source: https://www.target.com/s?searchTerm=macbook%20laptop
+
+Markdown Content:
+"macbook laptop" : Target
+===============
+
+[skip to main content](https://www.target.com/s?searchTerm=macbook%20laptop#content)[skip to footer](https://www.target.com/s?searchTerm=macbook%20laptop#footerHeader)
+
+Ship to 51503
+
+Council Bluffs
+
+[Target Circle™](https://www.target.com/circle)[Target Circle™ Card](https://www.target.com/circlecard)[Target Circle 360™](https://www.tar
+[Target-Jina] Extracted 8 items successfully via Jina.
+[Target-Jina] Received 53512 bytes. Content: Title: "macbook laptop" : Target
+
+URL Source: https://www.target.com/s?searchTerm=macbook%20laptop
+
+Markdown Content:
+"macbook laptop" : Target
+===============
+
+[skip to main content](https://www.target.com/s?searchTerm=macbook%20laptop#content)[skip to footer](https://www.target.com/s?searchTerm=macbook%20laptop#footerHeader)
+
+Ship to 51503
+
+Council Bluffs
+
+[Target Circle™](https://www.target.com/circle)[Target Circle™ Card](https://www.target.com/circlecard)[Target Circle 360™](https://www.tar
+[Target-Jina] Extracted 8 items successfully via Jina.
+[Target-Jina] Fetching: https://r.jina.ai/https://www.target.com/s?searchTerm=surface%20laptop
+[eBay] Fetching: https://api.scraperapi.com?api_key=3f2b56d22d0d69d0f1c36a00c1797bcf&url=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dsurface%2520laptop%26_sop%3D12&render=true&country_code=us
+[Walmart-Jina] Fetching: https://r.jina.ai/https://www.walmart.com/search?q=surface%20laptop
+[Nike-Jina] Fetching: https://r.jina.ai/https://www.nike.com/w?q=surface%20laptop
+[Apple-Jina] Fetching: https://r.jina.ai/https://www.apple.com/us/search/surface%20laptop?src=globalnav
+[Microsoft-Jina] Fetching: https://r.jina.ai/https://www.microsoft.com/en-us/search/explore?q=surface%20laptop
+[eBay] Found 10 items (mixed selectors).
+[Walmart-Jina] Received 87752 bytes.
+[Walmart-Jina] Extracted 8 items successfully.
+[Target-Jina] Received 58957 bytes. Content: Title: "surface laptop" : Target
+
+URL Source: https://www.target.com/s?searchTerm=surface%20laptop
+
+Markdown Content:
+"surface laptop" : Target
+===============
+
+[skip to main content](https://www.target.com/s?searchTerm=surface%20laptop#content)[skip to footer](https://www.target.com/s?searchTerm=surface%20laptop#footerHeader)
+
+Ship to 51503
+
+Council Bluffs
+
+[Target Circle™](https://www.target.com/circle)[Target Circle™ Card](https://www.target.com/circlecard)[Target Circle 360™](https://www.tar
+[Target-Jina] Extracted 8 items successfully via Jina.
+[Target-Jina] Fetching: https://r.jina.ai/https://www.target.com/s?searchTerm=iphone
+[eBay] Fetching: https://api.scraperapi.com?api_key=3f2b56d22d0d69d0f1c36a00c1797bcf&url=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Diphone%26_sop%3D12&render=true&country_code=us
+[Walmart-Jina] Fetching: https://r.jina.ai/https://www.walmart.com/search?q=iphone
+[Nike-Jina] Fetching: https://r.jina.ai/https://www.nike.com/w?q=iphone
+[Apple-Jina] Fetching: https://r.jina.ai/https://www.apple.com/us/search/iphone?src=globalnav
+[Microsoft-Jina] Fetching: https://r.jina.ai/https://www.microsoft.com/en-us/search/explore?q=iphone
+[Walmart-Jina] Received 106063 bytes.
+[Walmart-Jina] Extracted 8 items successfully.
+[Target-Jina] Fetching: https://r.jina.ai/https://www.target.com/s?searchTerm=iphone
+[eBay] Fetching: https://api.scraperapi.com?api_key=3f2b56d22d0d69d0f1c36a00c1797bcf&url=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Diphone%26_sop%3D12&render=true&country_code=us
+[Walmart-Jina] Fetching: https://r.jina.ai/https://www.walmart.com/search?q=iphone
+[Nike-Jina] Fetching: https://r.jina.ai/https://www.nike.com/w?q=iphone
+[Apple-Jina] Fetching: https://r.jina.ai/https://www.apple.com/us/search/iphone?src=globalnav
+[Microsoft-Jina] Fetching: https://r.jina.ai/https://www.microsoft.com/en-us/search/explore?q=iphone
+[eBay] Found 10 items (mixed selectors).
+[eBay] Found 10 items (mixed selectors).
+[Target-Jina] Received 64790 bytes. Content: Title: "iphone" : Target
+
+URL Source: https://www.target.com/s?searchTerm=iphone
+
+Markdown Content:
+"iphone" : Target
+===============
+
+[skip to main content](https://www.target.com/s?searchTerm=iphone#content)[skip to footer](https://www.target.com/s?searchTerm=iphone#footerHeader)
+
+Ship to 51503
+
+Council Bluffs
+
+[Target Circle™](https://www.target.com/circle)[Target Circle™ Card](https://www.target.com/circlecard)[Target Circle 360™](https://www.target.com/l/target-circle-360/-/N-2rguk)[Registr
+[Target-Jina] Extracted 8 items successfully via Jina.
+[Target-Jina] Received 1730 bytes. Content: Title: "iphone" : Target
+
+URL Source: https://www.target.com/s?searchTerm=iphone
+
+Markdown Content:
+[skip to main content](https://www.target.com/s?searchTerm=iphone#content)[skip to footer](https://www.target.com/s?searchTerm=iphone#footerHeader)
+
+[Target Circle™](https://www.target.com/circle)[Target Circle™ Card](https://www.target.com/circlecard)[Target Circle 360™](https://www.target.com/l/target-circle-360/-/N-2rguk)[Registry & Wish List](https://www.target.com/gift-registry)[Weekly Ad](ht
+[Walmart-Jina] Received 96310 bytes.
+[Walmart-Jina] Extracted 8 items successfully.
+[Target-Jina] Fetching: https://r.jina.ai/https://www.target.com/s?searchTerm=macbook
+[eBay] Fetching: https://api.scraperapi.com?api_key=3f2b56d22d0d69d0f1c36a00c1797bcf&url=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dmacbook%26_sop%3D12&render=true&country_code=us
+[Walmart-Jina] Fetching: https://r.jina.ai/https://www.walmart.com/search?q=macbook
+[Nike-Jina] Fetching: https://r.jina.ai/https://www.nike.com/w?q=macbook
+[Apple-Jina] Fetching: https://r.jina.ai/https://www.apple.com/us/search/macbook?src=globalnav
+[Microsoft-Jina] Fetching: https://r.jina.ai/https://www.microsoft.com/en-us/search/explore?q=macbook
+[eBay] Found 10 items (mixed selectors).
+[Walmart-Jina] Received 81857 bytes.
+[Walmart-Jina] Extracted 8 items successfully.
+[Target-Jina] Received 1871 bytes. Content: Title: "macbook" : Target
+
+URL Source: https://www.target.com/s?searchTerm=macbook
+
+Markdown Content:
+"macbook" : Target
+===============
+
+[skip to main content](https://www.target.com/s?searchTerm=macbook#content)[skip to footer](https://www.target.com/s?searchTerm=macbook#footerHeader)
+
+[Target Circle™](https://www.target.com/circle)[Target Circle™ Card](https://www.target.com/circlecard)[Target Circle 360™](https://www.target.com/l/target-circle-360/-/N-2rguk)[Registry & Wish List](https://www
+[Target-Jina] Fetching: https://r.jina.ai/https://www.target.com/s?searchTerm=macbook%20air
+[eBay] Fetching: https://api.scraperapi.com?api_key=3f2b56d22d0d69d0f1c36a00c1797bcf&url=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dmacbook%2520air%26_sop%3D12&render=true&country_code=us
+[Walmart-Jina] Fetching: https://r.jina.ai/https://www.walmart.com/search?q=macbook%20air
+[Nike-Jina] Fetching: https://r.jina.ai/https://www.nike.com/w?q=macbook%20air
+[Apple-Jina] Fetching: https://r.jina.ai/https://www.apple.com/us/search/macbook%20air?src=globalnav
+[Microsoft-Jina] Fetching: https://r.jina.ai/https://www.microsoft.com/en-us/search/explore?q=macbook%20air
+[Target-Jina] Received 1897 bytes. Content: Title: "macbook air" : Target
+
+URL Source: https://www.target.com/s?searchTerm=macbook%20air
+
+Markdown Content:
+"macbook air" : Target
+===============
+
+[skip to main content](https://www.target.com/s?searchTerm=macbook%20air#content)[skip to footer](https://www.target.com/s?searchTerm=macbook%20air#footerHeader)
+
+[Target Circle™](https://www.target.com/circle)[Target Circle™ Card](https://www.target.com/circlecard)[Target Circle 360™](https://www.target.com/l/target-circle-360/-/N-2rguk)[Registr
+[eBay] Found 10 items (mixed selectors).
+[Target-Jina] Fetching: https://r.jina.ai/https://www.target.com/s?searchTerm=macbook%20air
+[eBay] Fetching: https://api.scraperapi.com?api_key=3f2b56d22d0d69d0f1c36a00c1797bcf&url=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dmacbook%2520air%26_sop%3D12&render=true&country_code=us
+[Walmart-Jina] Fetching: https://r.jina.ai/https://www.walmart.com/search?q=macbook%20air
+[Nike-Jina] Fetching: https://r.jina.ai/https://www.nike.com/w?q=macbook%20air
+[Apple-Jina] Fetching: https://r.jina.ai/https://www.apple.com/us/search/macbook%20air?src=globalnav
+[Microsoft-Jina] Fetching: https://r.jina.ai/https://www.microsoft.com/en-us/search/explore?q=macbook%20air
+[eBay] Found 10 items (mixed selectors).
+[Walmart-Jina] Received 74522 bytes.
+[Walmart-Jina] Extracted 8 items successfully.
+[Walmart-Jina] Received 88279 bytes.
+[Walmart-Jina] Extracted 8 items successfully.
+[Target-Jina] Received 65732 bytes. Content: Title: "macbook air" : Target
+
+URL Source: https://www.target.com/s?searchTerm=macbook%20air
+
+Markdown Content:
+"macbook air" : Target
+===============
+
+[skip to main content](https://www.target.com/s?searchTerm=macbook%20air#content)[skip to footer](https://www.target.com/s?searchTerm=macbook%20air#footerHeader)
+
+Ship to 51503
+
+Council Bluffs
+
+[Target Circle™](https://www.target.com/circle)[Target Circle™ Card](https://www.target.com/circlecard)[Target Circle 360™](https://www.target.com/l/targe
+[Target-Jina] Extracted 8 items successfully via Jina.
+[Target-Jina] Fetching: https://r.jina.ai/https://www.target.com/s?searchTerm=macbook%20pro
+[eBay] Fetching: https://api.scraperapi.com?api_key=3f2b56d22d0d69d0f1c36a00c1797bcf&url=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dmacbook%2520pro%26_sop%3D12&render=true&country_code=us
+[Walmart-Jina] Fetching: https://r.jina.ai/https://www.walmart.com/search?q=macbook%20pro
+[Nike-Jina] Fetching: https://r.jina.ai/https://www.nike.com/w?q=macbook%20pro
+[Apple-Jina] Fetching: https://r.jina.ai/https://www.apple.com/us/search/macbook%20pro?src=globalnav
+[Microsoft-Jina] Fetching: https://r.jina.ai/https://www.microsoft.com/en-us/search/explore?q=macbook%20pro
+[eBay] Found 10 items (mixed selectors).
+[Walmart-Jina] Received 57327 bytes.
+[Walmart-Jina] Extracted 8 items successfully.
+[Target-Jina] Received 69258 bytes. Content: Title: "macbook pro" : Target
+
+URL Source: https://www.target.com/s?searchTerm=macbook%20pro
+
+Markdown Content:
+"macbook pro" : Target
+===============
+
+[skip to main content](https://www.target.com/s?searchTerm=macbook%20pro#content)[skip to footer](https://www.target.com/s?searchTerm=macbook%20pro#footerHeader)
+
+Ship to 51503
+
+Council Bluffs
+
+[Target Circle™](https://www.target.com/circle)[Target Circle™ Card](https://www.target.com/circlecard)[Target Circle 360™](https://www.target.com/l/targe
+[Target-Jina] Extracted 8 items successfully via Jina.
+[Target-Jina] Fetching: https://r.jina.ai/https://www.target.com/s?searchTerm=iphone%2015
+[eBay] Fetching: https://api.scraperapi.com?api_key=3f2b56d22d0d69d0f1c36a00c1797bcf&url=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Diphone%252015%26_sop%3D12&render=true&country_code=us
+[Walmart-Jina] Fetching: https://r.jina.ai/https://www.walmart.com/search?q=iphone%2015
+[Nike-Jina] Fetching: https://r.jina.ai/https://www.nike.com/w?q=iphone%2015
+[Apple-Jina] Fetching: https://r.jina.ai/https://www.apple.com/us/search/iphone%2015?src=globalnav
+[Microsoft-Jina] Fetching: https://r.jina.ai/https://www.microsoft.com/en-us/search/explore?q=iphone%2015
+[Target-Jina] Received 1748 bytes. Content: Title: "iphone 15" : Target
+
+URL Source: https://www.target.com/s?searchTerm=iphone%2015
+
+Markdown Content:
+[skip to main content](https://www.target.com/s?searchTerm=iphone%2015#content)[skip to footer](https://www.target.com/s?searchTerm=iphone%2015#footerHeader)
+
+[Target Circle™](https://www.target.com/circle)[Target Circle™ Card](https://www.target.com/circlecard)[Target Circle 360™](https://www.target.com/l/target-circle-360/-/N-2rguk)[Registry & Wish List](https://www.target.com/gift-regis
+[Walmart-Jina] Received 74061 bytes.
+[Walmart-Jina] Extracted 8 items successfully.
+[eBay] Found 10 items (mixed selectors).
+[Target-Jina] Fetching: https://r.jina.ai/https://www.target.com/s?searchTerm=JBL%20Tune%20720BT%20-%20Wireless%20Over-Ear
+[eBay] Fetching: https://api.scraperapi.com?api_key=3f2b56d22d0d69d0f1c36a00c1797bcf&url=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3DJBL%2520Tune%2520720BT%2520-%2520Wireless%2520Over-Ear%26_sop%3D12&render=true&country_code=us
+[Walmart-Jina] Fetching: https://r.jina.ai/https://www.walmart.com/search?q=JBL%20Tune%20720BT%20-%20Wireless%20Over-Ear
+[Nike-Jina] Fetching: https://r.jina.ai/https://www.nike.com/w?q=JBL%20Tune%20720BT%20-%20Wireless%20Over-Ear
+[Apple-Jina] Fetching: https://r.jina.ai/https://www.apple.com/us/search/JBL%20Tune%20720BT%20-%20Wireless%20Over-Ear?src=globalnav
+[Microsoft-Jina] Fetching: https://r.jina.ai/https://www.microsoft.com/en-us/search/explore?q=JBL%20Tune%20720BT%20-%20Wireless%20Over-Ear
+[Target-Jina] Fetching: https://r.jina.ai/https://www.target.com/s?searchTerm=JBL%20Tune%20720BT%20-%20Wireless%20Over-Ear
+[eBay] Fetching: https://api.scraperapi.com?api_key=3f2b56d22d0d69d0f1c36a00c1797bcf&url=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3DJBL%2520Tune%2520720BT%2520-%2520Wireless%2520Over-Ear%26_sop%3D12&render=true&country_code=us
+[Walmart-Jina] Fetching: https://r.jina.ai/https://www.walmart.com/search?q=JBL%20Tune%20720BT%20-%20Wireless%20Over-Ear
+[Nike-Jina] Fetching: https://r.jina.ai/https://www.nike.com/w?q=JBL%20Tune%20720BT%20-%20Wireless%20Over-Ear
+[Apple-Jina] Fetching: https://r.jina.ai/https://www.apple.com/us/search/JBL%20Tune%20720BT%20-%20Wireless%20Over-Ear?src=globalnav
+[Microsoft-Jina] Fetching: https://r.jina.ai/https://www.microsoft.com/en-us/search/explore?q=JBL%20Tune%20720BT%20-%20Wireless%20Over-Ear
+[eBay] Found 10 items (mixed selectors).
+[eBay] Found 10 items (mixed selectors).
+[Walmart-Jina] Received 101011 bytes.
+[Walmart-Jina] Extracted 8 items successfully.
+[Walmart-Jina] Received 99042 bytes.
+[Walmart-Jina] Extracted 8 items successfully.
+[Target-Jina] Received 74288 bytes. Content: Title: "JBL Tune 720BT - Wireless Over-Ear" : Target
+
+URL Source: https://www.target.com/s?searchTerm=JBL%20Tune%20720BT%20-%20Wireless%20Over-Ear
+
+Markdown Content:
+"JBL Tune 720BT - Wireless Over-Ear" : Target
+===============
+
+[skip to main content](https://www.target.com/s?searchTerm=JBL%20Tune%20720BT%20-%20Wireless%20Over-Ear#content)[skip to footer](https://www.target.com/s?searchTerm=JBL%20Tune%20720BT%20-%20Wireless%20Over-Ear#footerHeader)
+
+Ship to 51503
+
+Council Bluffs
+
+[Target Circle™
+[Target-Jina] Extracted 8 items successfully via Jina.
+[Target-Jina] Received 4417 bytes. Content: Title: "JBL Tune 720BT - Wireless Over-Ear" : Target
+
+URL Source: https://www.target.com/s?searchTerm=JBL%20Tune%20720BT%20-%20Wireless%20Over-Ear
+
+Markdown Content:
+[skip to main content](https://www.target.com/s?searchTerm=JBL%20Tune%20720BT%20-%20Wireless%20Over-Ear#content)[skip to footer](https://www.target.com/s?searchTerm=JBL%20Tune%20720BT%20-%20Wireless%20Over-Ear#footerHeader)
+
+[Target Circle™](https://www.target.com/circle)[Target Circle™ Card](https://www.target.com/circlecard)[Targe
+[Target-Jina] Extracted 3 items successfully via Jina.

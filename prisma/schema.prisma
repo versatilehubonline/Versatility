@@ -1,0 +1,86 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// Represents a unique product URL that we are tracking
+model Product {
+  id          String   @id @default(uuid())
+  url         String   @unique
+  title       String
+  image       String?
+  description String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  // Relationships
+  priceHistory PricePoint[]
+  scans        ScanResult[]
+  favorites    Favorite[]
+}
+
+// Records a single price observation for a product
+model PricePoint {
+  id        String   @id @default(uuid())
+  price     Float
+  currency  String   @default("USD")
+  timestamp DateTime @default(now())
+  
+  productId String
+  product   Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+}
+
+// User's history of analyzed items (replacing localStorage history)
+// Note: In a real app with auth, this would link to a User model
+model ScanResult {
+  id        String   @id @default(uuid())
+  url       String
+  title     String
+  score     Int
+  risk      String   
+  verdict   String?
+  timestamp DateTime @default(now())
+  userId    String?  // Clerk User ID
+
+  // Optional link to product if we want to relate them
+  productId String?
+  product   Product? @relation(fields: [productId], references: [id])
+}
+
+// User's favorites (replacing localStorage favorites)
+model Favorite {
+  id          String   @id @default(uuid())
+  url         String   
+  title       String
+  price       String?
+  image       String?
+  score       Int
+  verdict     String
+  timestamp   DateTime @default(now())
+  userId      String?  // Clerk User ID
+  
+  // New: Price Tracking
+  targetPrice Float?   // User sets this. If current price < this, alert.
+
+  productId   String?
+  product     Product? @relation(fields: [productId], references: [id])
+}
+
+// In-App Notifications
+model Notification {
+  id        String   @id @default(uuid())
+  type      String   // 'price_drop', 'recall_alert', 'system'
+  title     String
+  message   String
+  link      String?
+  read      Boolean  @default(false)
+  timestamp DateTime @default(now())
+}
+
