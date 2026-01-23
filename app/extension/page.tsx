@@ -3,7 +3,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
-import { ArrowMax, Bookmark, CheckCircle2, Laptop } from "lucide-react";
+import { Maximize2, Bookmark, CheckCircle2, Laptop } from "lucide-react";
 import { motion } from "framer-motion";
 
 export default function ExtensionPage() {

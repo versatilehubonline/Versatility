@@ -134,7 +134,7 @@ export function HistorySidebar() {
                                                 {/* @ts-ignore */}
                                                 {item.targetPrice ? (
                                                     <div className="flex items-center gap-1 text-[9px] text-green-400 font-bold">
-                                                        <Bell className="w-3 h-3 fill-current" /> {/* @ts-ignore */ item.targetPrice}
+                                                        <Bell className="w-3 h-3 fill-current" /> {('targetPrice' in item) ? item.targetPrice : null}
                                                     </div>
                                                 ) : (
                                                     <span className="text-[9px] text-white/20">Set Alert</span>
